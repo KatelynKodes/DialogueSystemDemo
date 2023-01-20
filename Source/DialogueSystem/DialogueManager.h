@@ -66,6 +66,11 @@ public:
 	UFUNCTION(BlueprintCallable)
 	class UDialogueDataAsset* getOptionBranch(int index);
 
+	UFUNCTION(BlueprintCallable)
+	/// <summary>
+	/// Calls the nextLine function
+	/// </summary>
+	void displayNextLine();
 private:
 	/// <summary>
 	/// Goes to the next line of dialogue

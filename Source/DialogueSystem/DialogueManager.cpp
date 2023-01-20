@@ -67,6 +67,11 @@ UDialogueDataAsset* ADialogueManager::getOptionBranch(int index)
 	return _currentConvo->options[index].BranchingConvo;
 }
 
+void ADialogueManager::displayNextLine()
+{
+	nextLine();
+}
+
 void ADialogueManager::nextLine()
 {
 	//If a conversation is not happening
